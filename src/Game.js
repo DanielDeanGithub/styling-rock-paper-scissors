@@ -6,6 +6,11 @@ const CHOICES = [
   { name: "scissors", emoji: "✌️" },
 ];
 
+const choiceStyles = {
+  display: "flex",
+  alignItems: "center",
+  marginBottom: 40
+ };
 
 function Game() {
   const [playerChoice, setPlayerChoice] = useState(null);
