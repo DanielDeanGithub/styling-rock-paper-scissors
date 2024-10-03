@@ -10,7 +10,12 @@ const choiceStyles = {
   display: "flex",
   alignItems: "center",
   marginBottom: 40
- };
+};
+
+const emojiStyles  = {
+  fontSize: 64,
+  marginRight: 20
+};
 
 function Game() {
   const [playerChoice, setPlayerChoice] = useState(null);
