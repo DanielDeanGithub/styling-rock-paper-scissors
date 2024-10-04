@@ -17,6 +17,12 @@ const emojiStyles  = {
   marginRight: 20
 };
 
+const nameStyles  = {
+  margintop: 40,
+  fontSize: 48,
+  color: "#ffff"
+};
+
 function Game() {
   const [playerChoice, setPlayerChoice] = useState(null);
   const [codeyChoice, setCodeyChoice] = useState(null);
