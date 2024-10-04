@@ -67,11 +67,11 @@ function Game() {
       </div>
       {playerChoice && codeyChoice && (
         <div>
-          <div>
+          <div style={choiceStyles}>
             <span>{playerChoice.emoji}</span>
             <p>You chose {playerChoice.name}</p>
           </div>
-          <div>
+          <div style={choiceStyles}>
             <span>{codeyChoice.emoji}</span>
             <p>The computer chose {codeyChoice.name}</p>
           </div>
