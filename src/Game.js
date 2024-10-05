@@ -74,7 +74,7 @@ function Game() {
         ))}
       </div>
       {playerChoice && codeyChoice && (
-        <div>
+        <div className={styles.results}>
           <div style={choiceStyles}>
             <span style={emojiStyles}>{playerChoice.emoji}</span>
             <p style={nameStyles}>You chose {playerChoice.name}</p>
