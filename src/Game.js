@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import styles from "./Game.module.css";
 
 const CHOICES = [
   { name: "rock", emoji: "✊" },
