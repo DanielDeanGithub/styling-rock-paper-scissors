@@ -18,10 +18,12 @@ const emojiStyles  = {
 };
 
 const nameStyles  = {
-  margintop: 40,
-  fontSize: 48,
+  margintop: 0,
+  fontSize: 24,
   color: "#ffff"
 };
+
+
 
 function Game() {
   const [playerChoice, setPlayerChoice] = useState(null);
