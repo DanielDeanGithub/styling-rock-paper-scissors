@@ -23,6 +23,11 @@ const nameStyles  = {
   color: "#ffff"
 };
 
+const resultStyle  = {
+  margintop: 40,
+  fontSize: 48,
+  color: "#ffff"
+};
 
 
 function Game() {
